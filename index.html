@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/42f2b55299.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-neutral-950">
+
+
+    <nav class="flex justify-between items-center p-2 h-14">
+        <div class="flex items-center gap-3">
+            <i class="fa-solid fa-bars" style="color: white;"></i>
+            <img class="h-11 w-28" src="logo-youtube.png" alt="">
+        </div>
+
+        <div class="flex gap-2 items-center w-5/12 ">
+            <div class="flex w-full h-9 rounded-xl pl-2 border-2 border-neutral-800">
+                <input class="bg-neutral-950 text-white h-full w-full " type="text" placeholder="Search">
+                <button class="pr-2 w-8 h-full"><i class="fa-solid fa-magnifying-glass"
+                        style="color: white;"></i></button>
+            </div>
+            <div>
+                <button
+                    class="flex justify-center items-center bg-neutral-800 w-9 h-9 rounded-full border-2 border-neutral-800">
+                    <i class="fa-solid fa-microphone" style="color: white;"></i></button>
+            </div>
+        </div>
+        <div
+            class="flex justify-center gap-2 items-center bg-neutral-950 w-24 h-9  rounded-xl border-2 border-neutral-800">
+            <i class="fa-solid fa-user" style="color: white;"></i>
+            <h1 class="text-white">Sing in</h1>
+        </div>
+    </nav>
+    <section class="flex bg-neutral-950" style="height: 92.9vh;">
+        <div class="h-full overflow-auto text-s font-light [@media(max-width:700px)]:hidden">
+            <div class="border-b-2 border-b-neutral-800">
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-solid fa-house" style="color: white;"></i>
+                    <p class="text-white">Home</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-solid fa-bolt-lightning" style="color: white;"></i>
+                    <p class="text-white">Shorts</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-regular fa-window-maximize" style="color: white;"></i>
+                    <p class="text-white">Subscriptions</p>
+                </div>
+            </div>
+
+            <div class="border-b-2 border-b-neutral-800">
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-regular fa-user" style="color: white;"></i>
+                    <p class="text-white">You</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-solid fa-clock-rotate-left" style="color: white;"></i>
+                    <p class="text-white">History</p>
+                </div>
+            </div>
+
+            <div class="border-b-2 border-b-neutral-800">
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <p class="text-white text-xl font-medium">Explor</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2 pt-0">
+                    <i class="fa-solid fa-fire" style="color: white;"></i>
+                    <p class="text-white">Trending</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-solid fa-house" style="color: white;"></i>
+                    <p class="text-white">Music</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-solid fa-music" style="color: white;"></i>
+                    <p class="text-white">Live</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-solid fa-gamepad" style="color: white;"></i>
+                    <p class="text-white">Gameing</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-solid fa-trophy" style="color: white;"></i>
+                    <p class="text-white">Sports</p>
+                </div>
+            </div>
+
+            <div class="border-b-2 border-b-neutral-800">
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <p class="text-white text-xl font-medium">More&nbsp;of&nbsp;Youtube</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2 pt-0">
+                    <i class="fa-brands fa-youtube  flex items-center justify-center h-2 w-2 m-1"
+                        style="color: red; background-color: white;"></i>
+                    <p class="text-white">YouTube&nbsp;Premium</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-brands fa-youtube  flex items-center justify-center h-2 w-2 m-1"
+                        style="color: red; background-color: white;"></i>
+                    <p class="text-white">YouTube&nbsp;Music</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-brands fa-youtube  flex items-center justify-center h-2 w-2 m-1"
+                        style="color: red; background-color: white;"></i>
+                    <p class="text-white">YouTube&nbsp;kids</p>
+                </div>
+            </div>
+            <div class="border-b-2 border-b-neutral-800">
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-solid fa-gear" style="color: white;"></i>
+                    <p class="text-white">Settings</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-regular fa-flag" style="color: white;"></i>
+                    <p class="text-white">Report&nbsp;histoory</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-regular fa-circle-question" style="color: white;"></i>
+                    <p class="text-white">Help</p>
+                </div>
+                <div class="flex justify-start items-center gap-2 p-2">
+                    <i class="fa-solid fa-circle-info" style="color: white;"></i>
+                    <p class="text-white">Send&nbsp;feedback</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap gap-1 text-neutral-600 text-xs p-1">
+                <a href="">About</a><a href=""></a>Press<a href="">Copyright</a><a href="">Contact us</a><a
+                    href="">Creators</a><a href="">Advertise</a><a href="">Developers</a>
+            </div>
+            <div class="flex flex-wrap gap-1 text-neutral-600 text-xs  p-1">
+                <a href="">Terms</a><a href="">Privacy</a><a href="">Policy & Safety</a><a href="">How YouTube
+                    works</a><a href="">Test new features</a>
+            </div>
+            <h1 class="text-neutral-600 text-xs p-1">&copy; 2025 Google LCC</h1>
+        </div>
+
+        <div class="w-4/5 [@media(max-width:700px)]:w-full" style="height: 86vh;">
+            <div class="flex gap-1 overflow-auto text-white text-xs p-1">
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">All</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Music</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3 ">Television&nbsp;series</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Podcast</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">News</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Live</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Gaming</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Pop&nbsp;Music</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Restrants</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">History</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Comdey</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Cars</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Coding</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Cooking&nbsp;shows</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Visual&nbsp;arts</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Live</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">For&nbsp;you</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Action&nbsp;Adventure&nbsp;games</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Saudi&nbsp;Ararbia</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Instsgram</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Championship</button>
+                <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Recently&nbsp;uploaded</button>
+            </div>
+            <div
+                class="flex flex-wrap p-3 gap-4 overflow-auto h-full [@media(max-width:700px)]:flex-col [@media(max-width:700px)]:flex-nowrap [@media(max-width:700px)]:items-center">
+                <a href="video.html">
+                    <div
+                        class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                        <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                        <div class="flex gap-1.5 w-full h-2/6">
+                            <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                            <div class="text-neutral-600 text-xs pt-2">
+                                <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                                <p>Name of the YouTube channel</p>
+                                <p>900K views &bull; 7 days</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-72 w-64 [@media(max-width:700px)]:w-screen [@media(max-width:700px)]:h-screen [@media(max-width:700px)]:p-6">
+                    <img class="w-full h-4/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
+                    <div class="flex gap-1.5 w-full h-2/6">
+                        <i class="fa-regular fa-face-smile fa-xl ml-2 mt-6" style="color: white;"></i>
+                        <div class="text-neutral-600 text-xs pt-2">
+                            <h1 class="text-white text-sm font-medium">YouTube&nbsp;video&nbsp;name</h1>
+                            <p>Name of the YouTube channel</p>
+                            <p>900K views &bull; 7 days</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
