@@ -7,6 +7,7 @@
     <title>YouTube</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/42f2b55299.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg-neutral-950">
@@ -15,7 +16,7 @@
     <nav class="flex justify-between items-center p-2 h-14">
         <div class="flex items-center gap-3">
             <i class="fa-solid fa-bars" style="color: white;"></i>
-            <img class="h-11 w-28" src="logo-youtube.png" alt="">
+            <a href="index.html"><img class="h-11 w-28" src="logo-youtube.png" alt=""></a>
         </div>
 
         <div class="flex gap-2 items-center w-5/12 ">
@@ -37,7 +38,7 @@
         </div>
     </nav>
     <section class="flex bg-neutral-950" style="height: 92.9vh;">
-        <div class="h-full overflow-auto text-s font-light [@media(max-width:700px)]:hidden">
+        <div class="h-full overflow-x-auto no-scrollbar text-s font-light [@media(max-width:700px)]:hidden">
             <div class="border-b-2 border-b-neutral-800">
                 <div class="flex justify-start items-center gap-2 p-2">
                     <i class="fa-solid fa-house" style="color: white;"></i>
@@ -140,7 +141,7 @@
         </div>
 
         <div class="w-4/5 [@media(max-width:700px)]:w-full" style="height: 86vh;">
-            <div class="flex gap-1 overflow-auto text-white text-xs p-1">
+            <div class="flex gap-1 overflow-auto no-scrollbar text-white text-xs p-1">
                 <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">All</button>
                 <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Music</button>
                 <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3 ">Television&nbsp;series</button>
@@ -165,7 +166,7 @@
                 <button class="bg-neutral-800 rounded-lg p-1 pr-3 pl-3">Recently&nbsp;uploaded</button>
             </div>
             <div
-                class="flex flex-wrap p-3 gap-4 overflow-auto h-full [@media(max-width:700px)]:flex-col [@media(max-width:700px)]:flex-nowrap [@media(max-width:700px)]:items-center">
+                class="flex flex-wrap p-3 gap-4 overflow-auto no-scrollbar h-full [@media(max-width:700px)]:flex-col [@media(max-width:700px)]:flex-nowrap [@media(max-width:700px)]:items-center">
                 <a class="flex flex-col h-72 w-72 [@media(max-width:700px)]:w-full [@media(max-width:700px)]:h-full [@media(max-width:700px)]:pb-0"
                     href="video.html">
                     <img class="w-full h-5/6 rounded-xl" src="17ab2e73dd515f34f93a7d1700ff87d4.webp" alt="">
